@@ -36,3 +36,19 @@ Streamlit App UI
 [Language Agent] → flan-t5-small LLM (transformers)
 ↓
 Generated Market Brief → Text (TTS optional)
+
+
+Deployment (Hugging Face or Streamlit Cloud)
+1. Place app.py in the root
+
+2. Disable/remove text_to_speech() calls
+
+3. Make sure requirements.txt includes:
+
+  streamlit(app.py)
+  faiss-cpu
+  sentence-transformers
+
+4. Push to Hugging Face Spaces or Streamlit Cloud
+
+
