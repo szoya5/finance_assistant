@@ -52,3 +52,5 @@ Deployment (Hugging Face or Streamlit Cloud)
 4. Push to Hugging Face Spaces or Streamlit Cloud
 
 
+speech_to_text uses SpeechRecognition + microphone input That only works on local machines — browsers like Hugging Face or Streamlit don’t support mic access in Python backend. so i didnt created the code for speech this works only for keyboard text display.
+
