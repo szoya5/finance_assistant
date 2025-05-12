@@ -1,0 +1,13 @@
+streamlit
+requests
+yfinance
+beautifulsoup4
+langchain
+langchain-community
+openai
+faiss-cpu
+sentence-transformers
+pyttsx3
+SpeechRecognition
+transformers
+torch
